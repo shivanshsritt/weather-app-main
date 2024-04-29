@@ -1,10 +1,10 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* --------------------background */
+
 .first{
  
     background-image: url(img/2103.i518.014.F.m005.c7.jungle\ plants.jpg);
@@ -17,12 +17,12 @@
     padding-bottom: 5rem;
     
 }
-/* -----------------------------header */
+
 .header {
     background-image: url(./img/preview.jpg);
     background-size: cover;
     background-position: relative;
-    color: rgb(250, 255, 173);
+    color: rgb(103, 103, 3);
     text-align: center;
     padding: 5rem;
 }
@@ -46,7 +46,7 @@ a:hover, a:visited, a:link, a:active{
 }
 .main {
   
-    background-color: #956969;
+    background-color: #ffffff;
     
     
 }
@@ -108,9 +108,14 @@ a:hover, a:visited, a:link, a:active{
     text-align: center;
     margin:10px 0;
     font-size:20px;
-  }
+}
+
+
+
+
 
   h1{
+    text-size-adjust: 100px;
     margin: 0 ;
     pad:  0  ;
     top: 4;

@@ -1,5 +1,4 @@
-
-//selector variable
+//VARIALBLE DECLEARE FOR WEATHER 
 var inputval = document.querySelector('#cityinput')
 var btn = document.querySelector('#add');
 var city = document.querySelector('#cityoutput')
@@ -15,6 +14,7 @@ function convertion(val){
     return (val - 273).toFixed(2)
 }
 //fetch
+
     btn.addEventListener('click', function(){
         fetch('https://api.openweathermap.org/data/2.5/weather?q='+inputval.value+'&appid='+apik)
         .then(res => res.json())
